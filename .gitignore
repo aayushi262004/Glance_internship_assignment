@@ -46,7 +46,7 @@ outputs/
 evaluation/ablation_results.csv
 
 # Local-only project files (not part of the submission repository)
-CLAUDE.md
+
 Glance ML Internship Assignment.pdf
 
 # Streamlit secrets
