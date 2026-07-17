@@ -1,6 +1,6 @@
 # Fashion-Aware Context Retrieval
 
-**🎬 Demo video:** [watch the end-to-end walkthrough](https://www.loom.com/share/2acdcdd7784147629becf5455412a6c7)
+**🎬 Demo video:** [watch the end-to-end walkthrough](https://www.loom.com/share/8fa686c16dc34c77bb977883578b028f)
 
 > **Improvements addendum:** see [`IMPROVEMENTS.md`](IMPROVEMENTS.md) for a measured
 > accuracy pass on top of this system — a Marqo-FashionSigLIP backbone
