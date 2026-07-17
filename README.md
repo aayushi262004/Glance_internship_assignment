@@ -1,5 +1,7 @@
 # Fashion-Aware Context Retrieval
 
+**🎬 Demo video:** [watch the end-to-end walkthrough](https://www.loom.com/share/2acdcdd7784147629becf5455412a6c7)
+
 > **Improvements addendum:** see [`IMPROVEMENTS.md`](IMPROVEMENTS.md) for a measured
 > accuracy pass on top of this system — a Marqo-FashionSigLIP backbone
 > (Precision@5 0.933 → 0.960, mAP 0.963 → 0.991) and pixel-HSV color verification
