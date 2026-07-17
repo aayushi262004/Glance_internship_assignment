@@ -1,0 +1,16 @@
+query_id,query,category,status,num_labeled,num_expected,precision_at_5,average_precision,ndcg_at_5
+1,A person in a bright yellow raincoat,garment,complete,5,5,0.8,1.0,0.8381840863879982
+2,Someone wearing a blue shirt sitting on a park bench,compositional,complete,5,5,0.6,0.9166666666666666,0.9832184408687481
+3,Casual weekend outfit for a city walk,style_context,complete,5,5,1.0,1.0,0.9322978750325865
+4,Professional business attire inside a modern office,style_context,complete,5,5,0.8,0.8875,0.9558295932317544
+5,A red tie and a white shirt in a formal setting,compositional,complete,5,5,0.8,1.0,1.0
+6,A person wearing a black dress,garment,complete,5,5,1.0,1.0,1.0
+7,Someone wearing a white shirt,garment,complete,5,5,1.0,1.0,1.0
+8,A person in a blue jacket,garment,complete,5,5,1.0,1.0,1.0
+9,Casual outfit in an urban street,style_context,complete,5,5,1.0,1.0,1.0
+10,Someone sitting in a green park,context,complete,5,5,1.0,1.0,1.0
+11,A formal blazer outfit,style,complete,5,5,1.0,1.0,1.0
+12,A person wearing a yellow coat,garment,complete,5,5,0.6,1.0,1.0
+13,A person wearing a red shirt,garment,complete,5,5,1.0,1.0,0.9807710461847231
+14,A blue shirt with black pants,compositional,complete,5,5,1.0,1.0,1.0
+15,A white shirt with a tie,compositional,complete,5,5,1.0,1.0,0.7979168917078058

@@ -1,0 +1,171 @@
+query,image_id,relevance
+A blue shirt with black pants,img_0010,1
+A blue shirt with black pants,img_0027,1
+A blue shirt with black pants,img_0035,1
+A blue shirt with black pants,img_0110,1
+A blue shirt with black pants,img_0135,0
+A blue shirt with black pants,img_0169,1
+A blue shirt with black pants,img_0197,2
+A blue shirt with black pants,img_0241,1
+A blue shirt with black pants,img_0342,1
+A blue shirt with black pants,img_0444,0
+A blue shirt with black pants,img_0572,2
+A blue shirt with black pants,img_0679,1
+A blue shirt with black pants,img_0813,1
+A blue shirt with black pants,img_0930,1
+A formal blazer outfit,img_0095,2
+A formal blazer outfit,img_0152,2
+A formal blazer outfit,img_0187,2
+A formal blazer outfit,img_0394,2
+A formal blazer outfit,img_0493,2
+A formal blazer outfit,img_0615,1
+A formal blazer outfit,img_0731,2
+A formal blazer outfit,img_0813,2
+A formal blazer outfit,img_0920,2
+A formal blazer outfit,img_0966,2
+A person in a blue jacket,img_0115,2
+A person in a blue jacket,img_0381,2
+A person in a blue jacket,img_0393,0
+A person in a blue jacket,img_0572,1
+A person in a blue jacket,img_0579,2
+A person in a blue jacket,img_0583,2
+A person in a blue jacket,img_0725,2
+A person in a blue jacket,img_0813,1
+A person in a blue jacket,img_0875,2
+A person in a blue jacket,img_0892,1
+A person in a blue jacket,img_0906,2
+A person in a blue jacket,img_0958,2
+A person in a bright yellow raincoat,img_0133,0
+A person in a bright yellow raincoat,img_0238,2
+A person in a bright yellow raincoat,img_0269,1
+A person in a bright yellow raincoat,img_0315,0
+A person in a bright yellow raincoat,img_0554,1
+A person in a bright yellow raincoat,img_0647,0
+A person in a bright yellow raincoat,img_0821,1
+A person in a bright yellow raincoat,img_0884,1
+A person in a bright yellow raincoat,img_0928,1
+A person in a bright yellow raincoat,img_0946,0
+A person in a bright yellow raincoat,img_0985,1
+A person wearing a black dress,img_0037,2
+A person wearing a black dress,img_0144,2
+A person wearing a black dress,img_0249,2
+A person wearing a black dress,img_0280,2
+A person wearing a black dress,img_0375,2
+A person wearing a black dress,img_0469,2
+A person wearing a black dress,img_0487,2
+A person wearing a black dress,img_0648,2
+A person wearing a black dress,img_0729,2
+A person wearing a black dress,img_0735,2
+A person wearing a black dress,img_0806,2
+A person wearing a black dress,img_0834,2
+A person wearing a black dress,img_0950,2
+A person wearing a red shirt,img_0025,2
+A person wearing a red shirt,img_0240,2
+A person wearing a red shirt,img_0285,2
+A person wearing a red shirt,img_0286,2
+A person wearing a red shirt,img_0425,1
+A person wearing a red shirt,img_0585,1
+A person wearing a red shirt,img_0655,1
+A person wearing a red shirt,img_0799,1
+A person wearing a red shirt,img_0912,2
+A person wearing a red shirt,img_0934,2
+A person wearing a yellow coat,img_0185,2
+A person wearing a yellow coat,img_0238,2
+A person wearing a yellow coat,img_0297,0
+A person wearing a yellow coat,img_0315,0
+A person wearing a yellow coat,img_0478,1
+A person wearing a yellow coat,img_0540,0
+A person wearing a yellow coat,img_0554,2
+A person wearing a yellow coat,img_0586,0
+A person wearing a yellow coat,img_0600,1
+A person wearing a yellow coat,img_0701,0
+A person wearing a yellow coat,img_0884,2
+A person wearing a yellow coat,img_0927,0
+A person wearing a yellow coat,img_0928,1
+A person wearing a yellow coat,img_0946,0
+A red tie and a white shirt in a formal setting,img_0123,1
+A red tie and a white shirt in a formal setting,img_0446,1
+A red tie and a white shirt in a formal setting,img_0493,0
+A red tie and a white shirt in a formal setting,img_0543,0
+A red tie and a white shirt in a formal setting,img_0548,0
+A red tie and a white shirt in a formal setting,img_0679,1
+A red tie and a white shirt in a formal setting,img_0731,1
+A red tie and a white shirt in a formal setting,img_0787,1
+A red tie and a white shirt in a formal setting,img_0920,1
+A red tie and a white shirt in a formal setting,img_0947,1
+A red tie and a white shirt in a formal setting,img_0966,1
+A red tie and a white shirt in a formal setting,img_0968,1
+A white shirt with a tie,img_0009,1
+A white shirt with a tie,img_0324,1
+A white shirt with a tie,img_0428,1
+A white shirt with a tie,img_0446,1
+A white shirt with a tie,img_0679,1
+A white shirt with a tie,img_0707,1
+A white shirt with a tie,img_0731,1
+A white shirt with a tie,img_0920,2
+A white shirt with a tie,img_0947,1
+A white shirt with a tie,img_0966,1
+A white shirt with a tie,img_0968,2
+Casual outfit in an urban street,img_0046,2
+Casual outfit in an urban street,img_0103,1
+Casual outfit in an urban street,img_0110,2
+Casual outfit in an urban street,img_0223,2
+Casual outfit in an urban street,img_0342,2
+Casual outfit in an urban street,img_0359,2
+Casual outfit in an urban street,img_0388,2
+Casual outfit in an urban street,img_0572,2
+Casual outfit in an urban street,img_0807,2
+Casual outfit in an urban street,img_0821,2
+Casual outfit in an urban street,img_0954,2
+Casual outfit in an urban street,img_0994,2
+Casual weekend outfit for a city walk,img_0031,2
+Casual weekend outfit for a city walk,img_0110,2
+Casual weekend outfit for a city walk,img_0241,1
+Casual weekend outfit for a city walk,img_0376,2
+Casual weekend outfit for a city walk,img_0572,2
+Casual weekend outfit for a city walk,img_0689,1
+Casual weekend outfit for a city walk,img_0693,1
+Casual weekend outfit for a city walk,img_0807,2
+Casual weekend outfit for a city walk,img_0840,2
+Casual weekend outfit for a city walk,img_0847,2
+Casual weekend outfit for a city walk,img_0994,2
+Professional business attire inside a modern office,img_0088,0
+Professional business attire inside a modern office,img_0095,1
+Professional business attire inside a modern office,img_0113,2
+Professional business attire inside a modern office,img_0187,1
+Professional business attire inside a modern office,img_0296,1
+Professional business attire inside a modern office,img_0394,1
+Professional business attire inside a modern office,img_0493,1
+Professional business attire inside a modern office,img_0648,1
+Professional business attire inside a modern office,img_0758,1
+Professional business attire inside a modern office,img_0966,1
+Someone sitting in a green park,img_0064,2
+Someone sitting in a green park,img_0077,0
+Someone sitting in a green park,img_0105,2
+Someone sitting in a green park,img_0225,2
+Someone sitting in a green park,img_0253,2
+Someone sitting in a green park,img_0424,2
+Someone sitting in a green park,img_0556,2
+Someone sitting in a green park,img_0803,2
+Someone sitting in a green park,img_0835,2
+Someone sitting in a green park,img_0886,1
+Someone wearing a blue shirt sitting on a park bench,img_0104,2
+Someone wearing a blue shirt sitting on a park bench,img_0115,0
+Someone wearing a blue shirt sitting on a park bench,img_0253,1
+Someone wearing a blue shirt sitting on a park bench,img_0257,1
+Someone wearing a blue shirt sitting on a park bench,img_0284,1
+Someone wearing a blue shirt sitting on a park bench,img_0424,1
+Someone wearing a blue shirt sitting on a park bench,img_0455,1
+Someone wearing a blue shirt sitting on a park bench,img_0542,0
+Someone wearing a blue shirt sitting on a park bench,img_0639,0
+Someone wearing a blue shirt sitting on a park bench,img_0773,1
+Someone wearing a blue shirt sitting on a park bench,img_0803,2
+Someone wearing a blue shirt sitting on a park bench,img_0885,1
+Someone wearing a white shirt,img_0009,2
+Someone wearing a white shirt,img_0428,2
+Someone wearing a white shirt,img_0446,2
+Someone wearing a white shirt,img_0477,2
+Someone wearing a white shirt,img_0890,2
+Someone wearing a white shirt,img_0896,2
+Someone wearing a white shirt,img_0968,2
+Someone wearing a white shirt,img_0972,2

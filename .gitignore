@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw datasets
+data/raw/
+data/raw_baseline_v1/
+# 3,200 source images (regenerate data/raw from these)
+test/
+# 14MB duplicate; tracked copy lives in data/metadata/
+/instances_attributes_val2020.json
+
+# Node / frontend build
+web/node_modules/
+web/dist/
+
+# Generated embeddings and FAISS indexes
+data/features/*.npy
+data/features/*.faiss
+
+# Generated outputs
+outputs/
+
+# Generated evaluation artifacts
+# (evaluation/retrieval_results.csv is tracked intentionally: it carries the
+# 75 manual relevance labels behind the reported metrics.)
+evaluation/ablation_results.csv
+
+# Local-only project files (not part of the submission repository)
+CLAUDE.md
+Glance ML Internship Assignment.pdf
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp

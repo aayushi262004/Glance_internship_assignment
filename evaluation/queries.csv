@@ -1,0 +1,16 @@
+query,relevance_keywords,category
+A person in a bright yellow raincoat,yellow raincoat,garment
+Someone wearing a blue shirt sitting on a park bench,blue shirt park bench,compositional
+Casual weekend outfit for a city walk,casual city walk,style_context
+Professional business attire inside a modern office,professional business office,style_context
+A red tie and a white shirt in a formal setting,red tie white shirt formal,compositional
+A person wearing a black dress,black dress,garment
+Someone wearing a white shirt,white shirt,garment
+A person in a blue jacket,blue jacket,garment
+Casual outfit in an urban street,casual urban street,style_context
+Someone sitting in a green park,park sitting,context
+A formal blazer outfit,formal blazer,style
+A person wearing a yellow coat,yellow coat,garment
+A person wearing a red shirt,red shirt,garment
+A blue shirt with black pants,blue shirt black pants,compositional
+A white shirt with a tie,white shirt tie,compositional

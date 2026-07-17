@@ -1,0 +1,21 @@
+{
+  "colors": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "pink",
+    "brown",
+    "white",
+    "gray",
+    "black"
+  ],
+  "aliases": {
+    "grey": "gray",
+    "navy": "blue",
+    "beige": "brown",
+    "cream": "white"
+  }
+}

@@ -1,0 +1,76 @@
+query,category,rank,image_id,image_path,final_score
+A person in a bright yellow raincoat,garment,1,img_0238,data\raw\img_0238.jpg,0.9728755780628748
+A person in a bright yellow raincoat,garment,2,img_0554,data\raw\img_0554.jpg,0.9592060574463435
+A person in a bright yellow raincoat,garment,3,img_0821,data\raw\img_0821.jpg,0.7761548587254115
+A person in a bright yellow raincoat,garment,4,img_0884,data\raw\img_0884.jpg,0.7587375172546931
+A person in a bright yellow raincoat,garment,5,img_0928,data\raw\img_0928.jpg,0.6986293920448847
+Someone wearing a blue shirt sitting on a park bench,compositional,1,img_0104,data\raw\img_0104.jpg,0.9137337312978857
+Someone wearing a blue shirt sitting on a park bench,compositional,2,img_0639,data\raw\img_0639.jpg,0.8720241294187658
+Someone wearing a blue shirt sitting on a park bench,compositional,3,img_0284,data\raw\img_0284.jpg,0.8692505613845938
+Someone wearing a blue shirt sitting on a park bench,compositional,4,img_0803,data\raw\img_0803.jpg,0.8478535369915121
+Someone wearing a blue shirt sitting on a park bench,compositional,5,img_0253,data\raw\img_0253.jpg,0.8373836533111685
+Casual weekend outfit for a city walk,style_context,1,img_0376,data\raw\img_0376.jpg,0.8811126202344894
+Casual weekend outfit for a city walk,style_context,2,img_0689,data\raw\img_0689.jpg,0.7827949970960617
+Casual weekend outfit for a city walk,style_context,3,img_0994,data\raw\img_0994.jpg,0.7736077755689621
+Casual weekend outfit for a city walk,style_context,4,img_0241,data\raw\img_0241.jpg,0.7718847095966339
+Casual weekend outfit for a city walk,style_context,5,img_0031,data\raw\img_0031.jpg,0.7397066652774811
+Professional business attire inside a modern office,style_context,1,img_0095,data\raw\img_0095.jpg,0.9048003554344177
+Professional business attire inside a modern office,style_context,2,img_0187,data\raw\img_0187.jpg,0.9033544659614563
+Professional business attire inside a modern office,style_context,3,img_0088,data\raw\img_0088.jpg,0.8645001351833344
+Professional business attire inside a modern office,style_context,4,img_0966,data\raw\img_0966.jpg,0.7782074213027954
+Professional business attire inside a modern office,style_context,5,img_0394,data\raw\img_0394.jpg,0.7597077041864395
+A red tie and a white shirt in a formal setting,compositional,1,img_0679,data\raw\img_0679.jpg,0.971525481656978
+A red tie and a white shirt in a formal setting,compositional,2,img_0947,data\raw\img_0947.jpg,0.5808629797477471
+A red tie and a white shirt in a formal setting,compositional,3,img_0543,data\raw\img_0543.jpg,0.5762645335573899
+A red tie and a white shirt in a formal setting,compositional,4,img_0446,data\raw\img_0446.jpg,0.5751856522340524
+A red tie and a white shirt in a formal setting,compositional,5,img_0731,data\raw\img_0731.jpg,0.5745093406815278
+A person wearing a black dress,garment,1,img_0834,data\raw\img_0834.jpg,0.9943026133946009
+A person wearing a black dress,garment,2,img_0729,data\raw\img_0729.jpg,0.9610496887138911
+A person wearing a black dress,garment,3,img_0249,data\raw\img_0249.jpg,0.9500292369297572
+A person wearing a black dress,garment,4,img_0469,data\raw\img_0469.jpg,0.9423447975090571
+A person wearing a black dress,garment,5,img_0487,data\raw\img_0487.jpg,0.9371869691780634
+Someone wearing a white shirt,garment,1,img_0446,data\raw\img_0446.jpg,0.9892368444374628
+Someone wearing a white shirt,garment,2,img_0009,data\raw\img_0009.jpg,0.9733072349003382
+Someone wearing a white shirt,garment,3,img_0477,data\raw\img_0477.jpg,0.9372503587177821
+Someone wearing a white shirt,garment,4,img_0890,data\raw\img_0890.jpg,0.9246689506939478
+Someone wearing a white shirt,garment,5,img_0968,data\raw\img_0968.jpg,0.9051455983093806
+A person in a blue jacket,garment,1,img_0579,data\raw\img_0579.jpg,0.9466558226517268
+A person in a blue jacket,garment,2,img_0725,data\raw\img_0725.jpg,0.9028282889298029
+A person in a blue jacket,garment,3,img_0583,data\raw\img_0583.jpg,0.8988497682980128
+A person in a blue jacket,garment,4,img_0572,data\raw\img_0572.jpg,0.8848701843193598
+A person in a blue jacket,garment,5,img_0115,data\raw\img_0115.jpg,0.8742624648979731
+Casual outfit in an urban street,style_context,1,img_0342,data\raw\img_0342.jpg,0.9177952408790588
+Casual outfit in an urban street,style_context,2,img_0223,data\raw\img_0223.jpg,0.8085382282733917
+Casual outfit in an urban street,style_context,3,img_0821,data\raw\img_0821.jpg,0.7848951667547226
+Casual outfit in an urban street,style_context,4,img_0994,data\raw\img_0994.jpg,0.7837971746921539
+Casual outfit in an urban street,style_context,5,img_0103,data\raw\img_0103.jpg,0.7737430334091187
+Someone sitting in a green park,context,1,img_0064,data\raw\img_0064.jpg,1.0
+Someone sitting in a green park,context,2,img_0424,data\raw\img_0424.jpg,0.7257802486419678
+Someone sitting in a green park,context,3,img_0835,data\raw\img_0835.jpg,0.7215441465377808
+Someone sitting in a green park,context,4,img_0253,data\raw\img_0253.jpg,0.6836725771427155
+Someone sitting in a green park,context,5,img_0105,data\raw\img_0105.jpg,0.668867439031601
+A formal blazer outfit,style,1,img_0095,data\raw\img_0095.jpg,0.9704388485235327
+A formal blazer outfit,style,2,img_0152,data\raw\img_0152.jpg,0.9209624634069555
+A formal blazer outfit,style,3,img_0187,data\raw\img_0187.jpg,0.9111321822685354
+A formal blazer outfit,style,4,img_0966,data\raw\img_0966.jpg,0.8842363164705389
+A formal blazer outfit,style,5,img_0731,data\raw\img_0731.jpg,0.8788715110105627
+A person wearing a yellow coat,garment,1,img_0238,data\raw\img_0238.jpg,1.0000000127724238
+A person wearing a yellow coat,garment,2,img_0884,data\raw\img_0884.jpg,0.8997994491032191
+A person wearing a yellow coat,garment,3,img_0928,data\raw\img_0928.jpg,0.8552237578800745
+A person wearing a yellow coat,garment,4,img_0701,data\raw\img_0701.jpg,0.724033264177186
+A person wearing a yellow coat,garment,5,img_0540,data\raw\img_0540.jpg,0.6627550848892756
+A person wearing a red shirt,garment,1,img_0025,data\raw\img_0025.jpg,0.9551729091576167
+A person wearing a red shirt,garment,2,img_0286,data\raw\img_0286.jpg,0.9527812429836817
+A person wearing a red shirt,garment,3,img_0285,data\raw\img_0285.jpg,0.9512768217495509
+A person wearing a red shirt,garment,4,img_0912,data\raw\img_0912.jpg,0.908055258648736
+A person wearing a red shirt,garment,5,img_0425,data\raw\img_0425.jpg,0.895917487995965
+A blue shirt with black pants,compositional,1,img_0197,data\raw\img_0197.jpg,0.9477214813232422
+A blue shirt with black pants,compositional,2,img_0572,data\raw\img_0572.jpg,0.9356358051300049
+A blue shirt with black pants,compositional,3,img_0679,data\raw\img_0679.jpg,0.9254915118217468
+A blue shirt with black pants,compositional,4,img_0241,data\raw\img_0241.jpg,0.8949550986289978
+A blue shirt with black pants,compositional,5,img_0813,data\raw\img_0813.jpg,0.8374975919723511
+A white shirt with a tie,compositional,1,img_0679,data\raw\img_0679.jpg,0.8958973437547684
+A white shirt with a tie,compositional,2,img_0446,data\raw\img_0446.jpg,0.6028984785079956
+A white shirt with a tie,compositional,3,img_0968,data\raw\img_0968.jpg,0.5817605257034302
+A white shirt with a tie,compositional,4,img_0009,data\raw\img_0009.jpg,0.540968507528305
+A white shirt with a tie,compositional,5,img_0947,data\raw\img_0947.jpg,0.5086371153593063

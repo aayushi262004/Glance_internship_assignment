@@ -1,0 +1,13 @@
+torch
+torchvision
+open_clip_torch
+faiss-cpu
+numpy
+pandas
+Pillow
+matplotlib
+PyYAML
+transformers
+fastapi
+uvicorn[standard]
+python-multipart
