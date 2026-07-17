@@ -11,6 +11,7 @@ export OMP_NUM_THREADS=1
 export TOKENIZERS_PARALLELISM=false
 
 PY=./venv/bin/python
+[ -x "$PY" ] || PY=./venv/Scripts/python.exe   # Windows (Git Bash) venv layout
 [ -x "$PY" ] || PY=python3
 
 echo "▶ Starting API on http://127.0.0.1:8000 …"

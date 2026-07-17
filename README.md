@@ -47,9 +47,10 @@ Top-k results
 
 **Offline indexing:** `scripts/prepare_annotated_dataset.py` samples 1,000 annotated
 Fashionpedia validation images and writes an image manifest plus per-garment bounding boxes.
-Three build scripts encode whole images (CLIP and FashionCLIP) and every garment crop
-(FashionCLIP), storing L2-normalized embeddings and flat inner-product FAISS indexes under
-`data/features/`.
+Five build scripts then produce the searchable artifacts: whole-image embeddings (OpenCLIP,
+FashionCLIP, and Marqo-FashionSigLIP), garment-crop embeddings (FashionCLIP and Marqo), and
+per-crop pixel-HSV color histograms — all stored as L2-normalized vectors in flat
+inner-product FAISS indexes under `data/features/`.
 
 ## Setup
 
@@ -98,6 +99,9 @@ Or manually, in two terminals:
 
 ```
 # terminal 1 — API (http://127.0.0.1:8000)
+# Windows:
+venv\Scripts\python -m uvicorn server.main:app --port 8000
+# macOS/Linux:
 KMP_DUPLICATE_LIB_OK=TRUE OMP_NUM_THREADS=1 \
   ./venv/bin/python -m uvicorn server.main:app --port 8000
 
@@ -125,10 +129,15 @@ human-labeled with graded relevance (0 = irrelevant, 1 = partial, 2 = highly rel
 Metrics: Precision@5 (relevance ≥ 1), mAP bounded to the retrieved top-5 pool, and nDCG@5 on
 the graded labels.
 
-| Slice                     | Precision@5 | mAP    | nDCG@5 |
-|---------------------------|-------------|--------|--------|
-| Overall (15 queries)      | 0.9333      | 0.9631 | 0.9632 |
-| Compositional (4 queries) | 0.9000      | 0.9385 | 0.9117 |
+| Configuration                                   | Precision@5 | mAP    | nDCG@5 |
+|-------------------------------------------------|-------------|--------|--------|
+| Baseline (FashionCLIP + region fusion), overall | 0.9333      | 0.9631 | 0.9632 |
+| Baseline, compositional slice (4 queries)       | 0.9000      | 0.9385 | 0.9117 |
+| **Shipped: Marqo backbone + color gate**        | **0.9600**  | **0.9911** | 0.9618 |
+
+The shipped configuration reaches P@5 = 1.0 on four of the five mandatory assignment
+queries; the full config-vs-config comparison and per-query breakdowns are in
+[`IMPROVEMENTS.md`](IMPROVEMENTS.md) and reproducible via `evaluation/harness/run_config.py`.
 
 These numbers come from the 15-query / 1,000-image assignment evaluation and should not be
 read as broad statistical generalization.
@@ -148,8 +157,9 @@ benchmarked at 1M images.
 
 ## Limitations
 
-- Color-to-garment binding is imperfect: CLIP-family crop similarity is dominated by garment
-  shape, so wrong-color matches can score competitively.
+- Color-to-garment binding: CLIP-family crop similarity is shape-dominated. The shipped
+  pixel-HSV color gate catches clear mismatches (red vs. blue), but perceptual near-neighbors
+  (yellow/beige/camel) remain hard to separate.
 - Rare categories have sparse region annotations in the sampled corpus (e.g. 2 annotated
   ties), which bounds region-level evidence.
 - The query parser uses a closed vocabulary; unknown garment/style/context words fall back to
